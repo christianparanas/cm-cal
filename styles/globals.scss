@@ -51,21 +51,21 @@ a {
 		-ms-overflow-style: none;  /* IE and Edge */
  		 scrollbar-width: none;  /* Firefox */
 
+
 		.tm {
 			position: relative;
 			background: #091a2b;
-			width: 90px;
-			padding: 10px 20px 10px 10px;
+			width: 100px;
+			padding: 20px;
 			display: flex;
 			color: white;
 		  justify-content: center;
 		  align-items: center;
 		  transition: right .3s linear;
 		  cursor: pointer;
+		  border: 1px solid #091a2b;
 
 		  &:hover {
-			  position: relative;
-				right: 20px;
 				border: 1px solid pink;
 			  }
 
