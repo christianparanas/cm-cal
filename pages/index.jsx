@@ -11,10 +11,10 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <Nav />
+        <Nav page={1} />
         
         <div className="home">
-          <h1>
+          <h1 className="hometext">
             <span>K</span>
             <span>y</span>
             <span>l</span>
